@@ -2283,8 +2283,8 @@ input, select, textarea {
 		#header {
 			position: relative;
 			margin: 0;
-			background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-					rgba(0, 0, 0, 0.0)),
+			background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+					rgba(0, 0, 0, 0.1)),
 				url("../../images/sstd2025_osaka-hero.jpg");
 			background-size: cover;
 			background-position: center;
