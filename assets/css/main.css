@@ -2253,12 +2253,12 @@ input, select, textarea {
 	/* line-height: 1.5em; */
 }
 
-#nav a:hover, #subnav a:hover {
+#nav a:hover, #subnav a:hover, #subnav a.active {
 	color: #fff !important;
 	background: #383838;
 }
 
-#nav a.active, #subnav a.active {
+#nav a.active {
 	background: #686868;
 		/* border-radius: 0px; */
 		/* height: 100%;
