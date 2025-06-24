@@ -135,8 +135,15 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+
 	.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
 		color: #fff;
+	}
+
+	.paper-title {
+	  color: black;
+	  font-weight: bold;
+	  margin-bottom: 0px;
 	}
 
 	strong, b {
