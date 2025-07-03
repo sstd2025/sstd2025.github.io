@@ -2203,16 +2203,16 @@ input, select, textarea {
 	background-color: #282828;
     /*background-color: #0c4762;*/
 	top: 0;
-	height: 3em;
-	line-height: 3.1em;
+	height: 4em;
+	line-height: 4.1em;
 }
 
 #subnav {
 	background-color: #686868;
     /*background-color: #aed6d4;*/
-	top: 3.0em;
-	height: 2.0em;
-	line-height: 2.0em;
+	top: 4.0em;
+	height: 2.5em;
+	line-height: 2.5em;
 }
 
 
