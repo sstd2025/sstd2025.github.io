@@ -6,6 +6,19 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+        .panel-table {
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+            border-collapse: separate;
+            border-spacing: 0 20px;
+        }
+        .panel-table img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
