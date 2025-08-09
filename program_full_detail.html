@@ -44,7 +44,7 @@
     width: 10%;
     
     background-color: #f2f2f2;
-    font-weight: bold;
+    
     text-align: center;
   }
 
@@ -112,6 +112,7 @@
 
   /* Session title formatting */
   .session-title {
+     font-weight: bold;
     
     color: #005a8d;
   }
@@ -235,18 +236,17 @@
   <tbody>
     <tr class="default">
       <td class="time-column">09:00-09:45</td>
-      <td class="session-column">Registration</td>
-      <td class="details-column"></td>
+      <td class="session-column" colspan="2">Registration</td>
+      
     </tr>
     <tr class="default">
       <td class="time-column">09:45-10:00</td>
-      <td class="session-column">Opening Remarks</td>
-      <td class="details-column">Organizing committee welcome</td>
+      <td class="session-column" colspan="2">Opening Remarks</td>
+      
     </tr>
     <tr class="keynote">
       <td class="time-column">10:00-11:00</td>
-      <td class="session-column">Keynote Talk #1</td>
-      <td class="details-column"><span class="long-paper"><a href="keynotes.html#keynote1">Engineering the Digital Twin Society: Harnessing Spatiotemporal Data through AI</a></span>Prof. Hirozumi Yamaguchi (Osaka University)</td>
+      <td class="session-column" colspan="2"><span class="long-paper"><a href="keynotes.html#keynote1">Keynote Talk #1: Engineering the Digital Twin Society: Harnessing Spatiotemporal Data through AI</a></span>Prof. Hirozumi Yamaguchi (Osaka University)</td>
     </tr>
     <tr class="social">
       <td class="time-column">11:00-11:20</td>
@@ -254,7 +254,7 @@
     </tr>
     <tr class="default">
       <td class="time-column">11:20-11:55</td>
-      <td class="session-column"><span class="session-title">Session 1 - Spatial and Spatio-temporal Data and Language Models</span><span class="author">Session Chair: Kyoungsook Kim, AIST, Japan</span></td>
+      <td class="session-column"><span class="session-title"><a href="session_detail.html#s1">Session 1 - Spatial and Spatio-temporal Data and Language Models</a></span><span class="author">Session Chair: Kyoungsook Kim, AIST, Japan</span></td>
       <td class="details-column">
         <span class="long-paper">SNC: A Framework for Verification and Generation of Spatial NLQ Corpora</span>
         <span class="author">Weijia Yi (Nanjing University of Aeronautics and Astronautics); Xieyang Wang (Nanjing University of Aeronautics and Astronautics); Mengyi Liu (Nanjing University of Aeronautics and Astronautics); Jianqiu Xu (Nanjing University of Aeronautics and Astronautics)  - LONG</span>
@@ -264,7 +264,7 @@
     </tr>
     <tr class="default">
       <td class="time-column">11:55-12:45</td>
-      <td class="session-column"><span class="session-title">Session 2 - Data Mining and Forecasting</span><span class="author">Session Chair: Panos Kalnis, KAUST, Saudi Arabia</span></td>
+      <td class="session-column"><span class="session-title"><a href="session_detail.html#s2">Session 2 - Data Mining and Forecasting</a></span><span class="author">Session Chair: Panos Kalnis, KAUST, Saudi Arabia</span></td>
       <td class="details-column">
         <span class="long-paper">Multivariate Tests for Point and Probabilistic Forecasts, with an Application to Spatio-temporal Weather Forecast Evaluation</span> 
         <span class="author">Annette Jing (Stanford University); Phillip Jang (Amazon) - LONG</span>
@@ -288,7 +288,7 @@
     </tr>
     <tr class="default">
       <td class="time-column">15:10-16:10</td>
-      <td class="session-column"><span class="session-title">Session 3 - Maritime Data</span><span class="author">Session Chair: Chiara Pugliese, IIT-CNR, Italy</span></td>
+      <td class="session-column"><span class="session-title"><a href="session_detail.html#s3">Session 3 - Maritime Data</a></span><span class="author">Session Chair: Chiara Pugliese, IIT-CNR, Italy</span></td>
       <td class="details-column">
         <span class="long-paper">A Multi-Modal Knowledge-Enhanced Framework for Vessel Trajectory Prediction</span>
         <span class="author">Haomin Yu (Aalborg University); Tianyi Li (Aalborg University); Kristian Torp (Aalborg University); Christian S. Jensen (Aalborg University) - LONG</span>
@@ -333,8 +333,7 @@
   <tbody>
     <tr class="keynote">
       <td class="time-column">09:00–10:00</td>
-      <td class="session-column">Keynote Talk #2</td>
-      <td class="details-column"><span class="long-paper"> <a href="keynotes.html#keynote2">Mapping Cultural Values Across Regions for AI Alignment</a></span>Prof. Xing Xie (Microsoft Research Asia)</td>
+      <td class="session-column" colspan="2"><span class="long-paper"> <a href="keynotes.html#keynote2">Keynote Talk #2: Mapping Cultural Values Across Regions for AI Alignment</a></span>Prof. Xing Xie (Microsoft Research Asia)</td>
     </tr>
     <tr class="social">
       <td class="time-column">10:00–10:20</td>
@@ -342,7 +341,7 @@
     </tr>
     <tr class="default">
       <td class="time-column">10:20–11.00</td>
-      <td class="session-column"><span class="session-title">Session 4 - Road Networks</span><span class="author">Session Chair: Aamir Cheema, Monash University, Australia</span></td>
+      <td class="session-column"><span class="session-title"><a href="session_detail.html#s4">Session 4 - Road Networks</a></span><span class="author">Session Chair: Aamir Cheema, Monash University, Australia</span></td>
       <td class="details-column">
         <span class="long-paper">BRkNN-light: Batch Processing of Reverse k-Nearest Neighbor Queries for Moving Objects on Road Networks</span> 
         <span class="author">Anbang Song (Yantai University); Ziqiang Yu (Yantai University); Wei Liu (Yantai University); Yating Xu (Yantai University); Mingjin Tao (Yantai University) - LONG</span>
@@ -373,7 +372,7 @@
     </tr>
     <tr class="social">
       <td class="time-column">14:50–15:50</td>
-      <td class="social-event" colspan="2">Demo & Coffee Break (Live demos and refreshments)</td>
+      <td class="social-event" colspan="2">Demo & Coffee Break (<a href="papers.html#demo">Live demos</a> and refreshments)</td>
     </tr>
     <tr class="default">
       <td class="time-column">15:50–18:30</td>
@@ -424,7 +423,7 @@ Mentor: Hua Lu (Aalborg University, Denmark)</p></td>
   <tbody>
     <tr class="default">
       <td class="time-column">09:00–10:20</td>
-      <td class="session-column"><span class="session-title">Session 5 - Mobility Analysis and Industry</span><span class="author">Session Chair: Gabriel Spadon, Dalhousie University, Canada</span></td>
+      <td class="session-column"><span class="session-title"><a href="session_detail.html#s5">Session 5 - Mobility Analysis and Industry</a></span><span class="author">Session Chair: Gabriel Spadon, Dalhousie University, Canada</span></td>
       <td class="details-column">
         <span class="long-paper">Scalable Processing of Moving Flock Patterns</span> 
         <span class="author">Andres Oswaldo Calderon Romero (Pontificia Universidad Javeriana); Vassilis J. Tsotras (University of California); Petko Balakov (Esri); Marcos Vieira (Google) - LONG</span>
@@ -452,7 +451,7 @@ Mentor: Hua Lu (Aalborg University, Denmark)</p></td>
     </tr>
     <tr class="default">
       <td class="time-column">13:05-14:05</td>
-      <td class="session-column"><span class="session-title">Session 6 - Time Series and Interval Data</span><span class="author">Session Chair: Mario Nascimento, Northeastern University, Canada </span></td>
+      <td class="session-column"><span class="session-title"><a href="session_detail.html#s6">Session 6 - Time Series and Interval Data</a></span><span class="author">Session Chair: Mario Nascimento, Northeastern University, Canada </span></td>
       <td class="details-column">
         <span class="long-paper">ReefsDB: An Efficient Design and Implementation of Time-Series Store on SSDs</span>  
         <span class="author">Shuai Liu (The Institute of Software, Chinese Academy of Sciences (ISCAS)); Ying Qiao (The Institute of Software, Chinese Academy of Sciences (ISCAS)); Chang Leng (The Institute of Software, Chinese Academy of Sciences (ISCAS)); Hongan Wang (The Institute of Software, Chinese Academy of Sciences (ISCAS)) - LONG</span>
@@ -463,13 +462,12 @@ Mentor: Hua Lu (Aalborg University, Denmark)</p></td>
     </tr>
     <tr class="default">
       <td class="time-column">14:05–15:20</td>
-      <td class="session-column">Panel Discussion</td>
-      <td class="details-column"><span class="long-paper"><a href="panel.html#panel1">My Classic Papers in Spatial and Spatiotemporal Data</a></span></td>
+      <td class="session-column" colspan="2"><span class="long-paper"><a href="panel.html#panel1">Panel Discussion: My Classic Papers in Spatial and Spatiotemporal Data</a></span></td>
     </tr>
     <tr class="default">
       <td class="time-column">15:20–15:30</td>
-      <td class="session-column">Closing Remarks</td>
-      <td class="details-column">Organizing committee</td>
+      <td class="session-column" colspan="2">Closing Remarks</td>
+      
     </tr>
     <tr class="social">
       <td class="time-column">15:30–15:45</td>
@@ -477,13 +475,12 @@ Mentor: Hua Lu (Aalborg University, Denmark)</p></td>
     </tr>
     <tr class="social">
       <td class="time-column">16:00–21:40</td>
-      <td class="social-event" colspan="2">
-        <p>EXPO 2025 Excursion: Transportation & guided tour</p>
+      <td class="social-event">
+        <p>EXPO 2025 Excursion: Transportation & guided tour</p></td>
+         <td class="details-column">
         <ul>
-          <li>Bus leaves conference venue at 4pm</li>
-          <li>Bus arrives at Expo at ~4:40pm</li>
-          <li>Bus leaves Expo at 9pm</li> 
-      	  <li>Bus arrives back at the conference venue at ~9:40pm</li>
+          <li><span style="font-weight: bold;">Bus leaves conference venue  at 4pm</span> (arrives at Expo at ~4:40pm)</li>
+          <li><span style="font-weight: bold;">Bus leaves Expo at 9pm</span> (arrives back at the conference venue at ~9:40pm)</li>
         </ul>
       </td>
     </tr>
