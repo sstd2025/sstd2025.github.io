@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 [id] {
-    scroll-margin-top: 4.5em; /* Adjust to match your fixed header height */
+    scroll-margin-top: 5em; /* Adjust to match your fixed header height */
 }
         .panel-table {
             width: 100%;
@@ -162,6 +162,18 @@ input, select, textarea {
 	  margin-bottom: 0px;
 	}
 
+.paper-abstract {
+  
+     font-size: 0.95em;       /* Slightly smaller than the title */
+    line-height: 1.4em;     /* Scales with the title's font size */
+    margin-top: 0.4em;      /* Gap from title, scales with title size */
+    color: #444;            /* Softer text color for hierarchy */
+    
+        margin-bottom: 1em;     /* Separate each paper block slightly */
+    padding-bottom: 0.6em;  /* Add breathing room inside */
+    border-bottom: 1px solid #eee; /* Subtle divider */
+
+}
 	strong, b {
 		font-weight: 400;
 		color: inherit;
