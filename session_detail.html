@@ -150,6 +150,29 @@ can analyze movement behavior. In this paper, we study the problem of finding im
 causes of its sub-optimal performance. We propose a series of methods that enhance the overall accuracy of the trained model, while maintaining differential privacy constraints. Our experimental evaluation shows that the proposed methods achieve a higher accuracy than the benchmark, under the same privacy constraints. When combined together our methods are able to outperform the non-private training, while benefiting from the protection given by the Differential Privacy
 guarantees, marking a significant advancement towards private
 training of deep learning models used in real-world location-based systems.</div></p>
+<p><div class="paper-title"><a href="https://d2vccesz85z2gp.cloudfront.net/proceedings/sstd25-18.pdf" target="_blank">Target and Non-target Category Classification from GPS and Check-in Data</a></div>Ryo Shirai (The University of Osaka); Ryo Imai (LY Coorporation); Daichi Amagata (Osaka University)*
+<div class="paper-abstract">GPS data analysis is one of the main operators in geographical
+information systems. However, because of security and privacy
+issues, we often face situations where GPS data cannot be obtained
+frequently. Such situations and the measurement errors of GPS
+coordinates make identifying user behaviors challenging. In this
+work, we assume this setting and tackle the classification problem of
+target and non-target categories for the first time. Target categories
+are store categories in the scope of a service provider, whereas non-
+target ones are those that are not in. Given a GPS point, this problem
+estimates which category this location belongs to, so it is a binary
+classification problem. This problem has two main difficulties. First,
+we cannot obtain labeled data of the non-target categories. Second,
+many GPS data have error ranges and no labels, i.e., they do not
+clarify where the users stay. To solve the problem while addressing
+these difficulties, we propose a new classification method based on
+machine learning. We exploit GPS and check-in data to obtain user
+feature vectors at a given time. Our loss function considers non-
+stay information on each store category to identify the non-target
+space in the feature space. From these techniques, we compute
+the probability of staying in one of the (non-)target categories. We
+conduct experiments on real-world datasets, and the results show
+the effectiveness of our method</div></p>
 
 
 <h4 id="s6">Session 6 - Time Series and Interval Data</h4>
